@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Login</title>
+   <script type="application/javascript" src="{{ static_url("/home/jack/chat/static/auth_source.js") }}"></script>
+   <meta charset="utf-8">
+ </head>
+<body>
+
+<form action="/login/" method="post">
+
+      <p>login<input   type="text"    name="login"></p>
+<!--   <p>password<input   type="text"    name="pass"></p>
+     <p>e-mail<input   type="text"    name="mail"></p> -->
+           <p><input   type="submit"  value="send"></p>
+
+</form>
+
+</body>
+</html>
